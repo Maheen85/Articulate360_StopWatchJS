@@ -2,7 +2,7 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5Vh5CQFscwH":
+      case "5gn1bhgmqUL":
         Script1();
         break;
   }
@@ -20,7 +20,7 @@ let sec = 0;
 function startTimer(){
 	sec += 1;
 	player.SetVar("timer",sec);
-	if (sec== 100){
+	if (sec == 12){
 		clearInterval(timerId);
 	}
 }
